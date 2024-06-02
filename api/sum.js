@@ -3,7 +3,6 @@ const router = express.Router();
 
 // 定义 /api/sum 路由
 router.post('/', (req, res) => {
-  console.log(222)
   const { a, b } = req.body;
 
   // 检查参数是否为数字
